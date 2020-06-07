@@ -1,5 +1,3 @@
-import 'regenerator-runtime/runtime'
-
 const process = {
   env: {
     API_KEY: "AIzaSyBYewgi2GlM1aAVb-jlFc3qjtg3vLfKe8g",
