@@ -1,5 +1,9 @@
 {
   "scripts": {
     "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "regenerator-runtime": "^0.13.5"
   }
 }
