@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
-    "parcel": "^1.12.4"
+  "scripts": {
+    "build": "parcel build index.html"
   }
 }
