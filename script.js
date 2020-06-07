@@ -1,5 +1,3 @@
-import 'regenerator-runtime/runtime'
-
 const getChannelUploads = async (userId) => {
   const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${userId}&key=${process.env.API_KEY}`);
   const data = await response.json()
