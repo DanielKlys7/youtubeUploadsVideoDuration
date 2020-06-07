@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  font-family: 'Roboto', sans-serif;
+
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.contentTime {
+  font-size: 120px;
+}
+
+.input {
+  display: flex;
+  margin: 30px;
+  justify-self: flex-start;
+}
+
+.userID {
+  font-size: 32px;
+}
+
+.submit {
+  font-size: 32px;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+}
